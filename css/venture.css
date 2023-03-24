@@ -1,0 +1,123 @@
+*{ 
+    box-sizing: border-box;
+ }
+
+header{
+border:2px solid black;
+height:100px;
+width:100%;
+background: black;
+clear: both;
+}
+
+
+ul li{
+color:white;
+width:15%;
+float:left;
+list-style: none;
+margin: 10px 0 0 20px;
+}
+
+.pic{
+width:6%;
+float:left;
+align-items: center;
+}
+
+.side{
+width:25%;
+float:right;
+color:white;
+}
+
+main{
+height:600px;
+width:100%;
+background-image: url(../images/Ellen-Pao.webp);
+background-size:100%;
+background-repeat: no-repeat;
+}
+
+h1{
+height:97px;
+width:60%;
+border:1px solid white;
+background:white;
+margin-top:-108px;
+margin-left:67px;
+padding:1px;
+}
+
+
+.body{
+height:300px;
+width:50%;
+padding:20px;
+margin-top:1px;
+}
+
+.body section {
+width:60%;
+float:left;
+margin-top:-136px;
+margin-left:290px;
+}
+
+.pic1{
+width:40%;
+margin-left:12px;
+float:left;
+}
+
+h3{
+font-size:medium;
+float:right;
+margin-right:105px;
+}
+
+body span{
+font-size:small;
+float:right;
+margin-top:4px;
+margin-left:28px;
+}
+
+/*STYLESSSSSSS*/
+
+@media (min-width:500px) and (max-width:900px){
+main{
+width:154%;
+}
+}
+
+@media (min-width:560px) and (max-width:990px){
+.body section {
+width:100%;
+margin-left:174px;
+margin-top:-93px;
+}
+
+main{
+width:132%;
+}
+}
+
+@media (max-width:680px){
+main{
+width:139%;
+}
+
+h1{
+width:67%;
+margin-top:-119px;
+}
+
+.body section{
+width:108%;
+margin-left:138px;
+margin-top:93px;
+}
+}
+
+
